@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04838E442B8913270000C2E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04838E432B8913270000C2E4 /* AppDelegate.swift */; };
-		04838E462B8913270000C2E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04838E452B8913270000C2E4 /* SceneDelegate.swift */; };
 		04838E482B8913270000C2E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04838E472B8913270000C2E4 /* ViewController.swift */; };
-		04838E4B2B8913270000C2E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04838E492B8913270000C2E4 /* Main.storyboard */; };
 		04838E4D2B89132A0000C2E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04838E4C2B89132A0000C2E4 /* Assets.xcassets */; };
 		04838E502B89132A0000C2E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04838E4E2B89132A0000C2E4 /* LaunchScreen.storyboard */; };
 		04838E5B2B89132A0000C2E4 /* hpmonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04838E5A2B89132A0000C2E4 /* hpmonitorTests.swift */; };
@@ -38,9 +36,7 @@
 /* Begin PBXFileReference section */
 		04838E402B8913270000C2E4 /* hpmonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hpmonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04838E432B8913270000C2E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04838E452B8913270000C2E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		04838E472B8913270000C2E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04838E4A2B8913270000C2E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04838E4C2B89132A0000C2E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04838E4F2B89132A0000C2E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04838E512B89132A0000C2E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,9 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				04838E432B8913270000C2E4 /* AppDelegate.swift */,
-				04838E452B8913270000C2E4 /* SceneDelegate.swift */,
 				04838E472B8913270000C2E4 /* ViewController.swift */,
-				04838E492B8913270000C2E4 /* Main.storyboard */,
 				04838E4C2B89132A0000C2E4 /* Assets.xcassets */,
 				04838E4E2B89132A0000C2E4 /* LaunchScreen.storyboard */,
 				04838E512B89132A0000C2E4 /* Info.plist */,
@@ -233,7 +227,6 @@
 			files = (
 				04838E502B89132A0000C2E4 /* LaunchScreen.storyboard in Resources */,
 				04838E4D2B89132A0000C2E4 /* Assets.xcassets in Resources */,
-				04838E4B2B8913270000C2E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +253,6 @@
 			files = (
 				04838E482B8913270000C2E4 /* ViewController.swift in Sources */,
 				04838E442B8913270000C2E4 /* AppDelegate.swift in Sources */,
-				04838E462B8913270000C2E4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +289,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04838E492B8913270000C2E4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04838E4A2B8913270000C2E4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04838E4E2B89132A0000C2E4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +431,6 @@
 				INFOPLIST_FILE = hpmonitor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +458,6 @@
 				INFOPLIST_FILE = hpmonitor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
